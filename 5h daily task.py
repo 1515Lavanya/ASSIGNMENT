@@ -1,10 +1,11 @@
-"write a program to check if a string is a palindrome."
+"write a program to check if a string is a palindrome."write a program to check if a string is a palindrome
 
-n="madam"
+n="madam
+
 rev=""
 temp=n 
 for i in n:
-rev=i+rev
+    rev=i+rev
 if temp==rev:
     print("palindrome")
 else:
