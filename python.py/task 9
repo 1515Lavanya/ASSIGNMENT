@@ -1,0 +1,14 @@
+Write a Python program to add member to a set
+
+my_set = {1, 2, 3}
+
+
+print("Original set:", my_set)
+
+
+new_member = 4
+
+
+my_set.add(new_member)
+
+print("Updated set:", my_set)

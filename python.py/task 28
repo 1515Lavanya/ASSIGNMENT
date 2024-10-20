@@ -1,0 +1,12 @@
+
+
+
+# Write a python proram to convert tuple into a string ?
+
+my_tuple = ('Hello', 'world', 'this', 'is', 'Python')
+
+
+result_string = ' '.join(my_tuple)
+
+
+print("Tuple as string:", result_string)  

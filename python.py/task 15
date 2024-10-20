@@ -1,0 +1,12 @@
+# write a python program to find max and min values in a set?
+
+numbers = {10, 20, 5, 15, 25}
+
+
+max_value = max(numbers)
+min_value = min(numbers)
+
+
+print("Set of numbers:", numbers)
+print("Maximum value:", max_value)
+print("Minimum value:", min_value)

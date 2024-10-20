@@ -1,0 +1,11 @@
+
+# Check if two sets have any elements in common. If yes, display the common elements?
+
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
+
+# Find common elements using intersection
+common_elements = set_a.intersection(set_b)
+
+# Check if there are common elements and display them
+if common_elements:

@@ -1,0 +1,15 @@
+
+# Write a python program to createa unionof set
+
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
+
+
+print("Set A:", set_a)
+print("Set B:", set_b)
+
+
+union_set = set_a.union(set_b)
+
+
+print("Union of Set A and Set B:", union_set)

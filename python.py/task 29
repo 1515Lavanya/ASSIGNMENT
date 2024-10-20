@@ -1,0 +1,10 @@
+
+
+
+
+
+
+my_tuple = (1, 2, 3, 2, 4, 3, 2, 1)
+element, freq = most_frequent_element(my_tuple)
+
+print(f"The most frequent element is: {element} (Frequency: {freq})")

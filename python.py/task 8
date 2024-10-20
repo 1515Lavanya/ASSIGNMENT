@@ -1,0 +1,52 @@
+my_set = {1, 2, 3, 4, 5}
+
+# Method 1: Using a for loop
+print("Iterating using a for loop:")
+for item in my_set:
+    print(item)
+
+# Method 2: Using a set comprehension to create a new set
+squared_set = {item ** 2 for item in my_set}
+print("\nSquared values using set comprehension:", squared_set)
+
+# Method 3: Using the `enumerate` function to get index (not typical for sets)
+# Since sets do not have a defined order, using enumerate is less common but still possible with a list conversion
+print("\nIterating with index using enumerate:")
+for index, item in enumerate(my_set):
+    print(f"Index {index}: {item}")
+
+# Method 4: Using the `iter` function
+print("\nIterating using the iter() function:")
+set_iterator = iter(my_set)
+while True:
+    try:
+        item = next(set_iterator)
+        print(item)
+    except StopIteration:
+        break
+# Output
+# When you run this program, you should see output like this (the order may vary because sets are unordered):
+
+
+Iterating using a for loop:
+1
+2
+3
+4
+5
+
+Squared values using set comprehension: {1, 4, 9, 16, 25}
+
+Iterating with index using enumerate:
+Index 0: 1
+Index 1: 2
+Index 2: 3
+Index 3: 4
+Index 4: 5
+
+Iterating using the iter() function:
+1
+2
+3
+4
+5

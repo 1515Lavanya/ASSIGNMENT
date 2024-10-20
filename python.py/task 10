@@ -1,0 +1,15 @@
+# Write a Python program to remove item from a given set.
+
+my_set = {1, 2, 3, 4, 5}
+
+# Display the original set
+print("Original set:", my_set)
+
+# Item to be removed
+item_to_remove = 3
+
+# Removing the item from the set
+my_set.discard(item_to_remove)  # Use discard() to avoid KeyError if the item is not found
+
+# Display the updated set
+print("Updated set after removing", item_to_remove, ":", my_set)

@@ -1,0 +1,8 @@
+# Given two Python sets, write a Python program to update the first set with items that exist only in the first set and not in the second set.
+
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
+
+
+set_a.difference_update(set_b)
+print("Updated Set A (only items in set A):", set_a)

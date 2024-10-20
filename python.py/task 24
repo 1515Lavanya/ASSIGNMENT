@@ -1,0 +1,4 @@
+
+# How do you create a empty tuple on python
+empty_tuple = ()
+print("Empty tuple:", empty_tuple)
