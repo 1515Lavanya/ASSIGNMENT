@@ -1,0 +1,9 @@
+Write python program to convert a list of integers into single integer ?
+
+integer_list = [1, 2, 3, 4, 5]
+
+
+result = (integer_list)
+
+print("Original list:", integer_list)
+print("Converted integer:", result)

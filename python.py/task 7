@@ -1,0 +1,36 @@
+
+
+
+# Write a program to create a set.
+
+my_set = {1, 2, 3, 4, 5}
+
+
+print("Original set:", my_set)
+
+
+my_set.add(6)
+print("Set after adding 6:", my_set)
+
+
+my_set.remove(2)
+print("Set after removing 2:", my_set)
+
+
+if 3 in my_set:
+    print("3 is in the set")
+else:
+    print("3 is not in the set")
+
+
+print("Number of elements in the set:", len(my_set))
+
+
+my_list = [1, 2, 2, 3, 4, 4, 5]
+new_set = set(my_list)
+print("Set created from list (duplicates removed):", new_set)
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+Write a python program to delete element of given index in list ?
+
+
+
+my_list = [10, 20, 30, 40, 50]
+index_to_delete = 2
+
+result = (my_list, index_to_delete)
+
+print("Updated List:", result)
