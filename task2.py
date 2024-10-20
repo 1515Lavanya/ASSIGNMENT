@@ -1,1 +1,0 @@
-print("python learninf with django")
