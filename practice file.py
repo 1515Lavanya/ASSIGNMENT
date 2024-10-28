@@ -255,7 +255,89 @@
 # tup = ()
 # print(tup)
 # print(type(tup))
-tup = (1,2,3,4,5,5,5)
-print(tup.index(5))
+# tup = (1,2,3,4,5,5,5)
+# print(tup.index(5))
+# tup = (1,2,3,4,5,5,5,5)
+# print(tup.count(5)
+# movies = []
+# mov1 = input("enter 1st movie:")
+# mov2 = input("enter 2nd movie:")
+# mov3 = input("enter 3rd movie:")
+
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
+            
+# print(movies)
+# list = [5,4,3,2,1]
+# list.insert(3,9)
+# print(list)
+# print(list)
+# print(len(list))
+# movies = []
+# movies.append(input("enter 1st movie:"))
+# movies.append(input("enter 2nd movie:"))
+# movies.append(input("enter 3rd movie:"))
 
 
+
+# print(movies)
+# list = [1,2,3,4,5]
+
+# print(list.copy())
+# print(list.reverse())
+# print(list)
+# list1 = ["m"]
+# list2 = [1,2,3]
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
+
+# if(copy_list1 == list1):
+#     print("palindroame")
+
+# else:
+#     print("not a palindrome")
+# grade = ("c","d","a","a","b","b","a")
+# print(grade.count("a"))
+# list = ["c","d","a","a","b","b","a"]
+# print(list.sort())
+# print(list)
+
+# tuple = ("name",12,23.44,True,10)
+# print(t[0:4])
+# t[10] = 20
+# print(t)
+# print(tuple.index(4))
+# print(tuple)
+# t = (11.2 , 30,66.9)
+# l = list(t)
+# print(l)
+
+# info = { 
+
+#    "name" : "lavanya",
+#    "subjects" : ["maths","chem","bio","physics"],
+#     "topics" : ("dict" , "set"),
+#     "age": 23,
+#     "is_adult" : True,
+#     "marks" : 99.9,
+#     12 : 88,
+#     19.0 : 12
+}
+
+# info["name"] = "hema"
+# print(info)
+# print(info.keys)
+# print(info)
+# null_dict ={}
+# null_dict["name"] = "lavanyahema"
+# print(null_dict)
+student = {
+    "name" = "lavanya hema",
+    "subjects" = {
+        'phy' : 22,
+        'chem' : 13,
+        'bio' : 44,
+        'math' : 66
+    }
+}
