@@ -40,3 +40,5 @@ for item in my_list:
     print(item)
 10. List Comprehensions
 squared = [x**2 for x in my_list]  # Create a new list with squared values
+nums = [1,4,9,16,25,36,49,64,81,100]
+

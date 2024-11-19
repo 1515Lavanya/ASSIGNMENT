@@ -262,30 +262,310 @@
 #     print("even")
 # else:
 #     print("odd")
-x = int(input("enter a number:"))
-if (x %7 == 0):
-    print("multiple of 7")
-else :
-    print("not a multiple")
+# x = int(input("enter a number:"))
+# if (x %7 == 0):
+#     print("multiple of 7")
+# else :
+#     print("not a multiple")
+
+# nums = [1,2,3,4,5,6,7,8,9,0]
+# idx = 0
+# while idx<len(nums):
+#     print(nums[idx])
+#     idx = idx+1
+
+
+# heros = ["ram" ,"hanuman","krishna" ,"kalki"]
+
+# i = 0 
+# while i<len(heros):
+#     print(heros[i])
+#     i = i + 1
+
+# nums = (1,2,3,4,5,6,7,8,9,10)
+# x = 7
+
+# i = 0
+# while i < len(nums):
+#     if(nums[i]==x):
+#         print("found at idx",i)
+#         break
+#     else :
+#         print("finding")
+
+#     i = i + 1
+
+# print("end of loop")
+   
+
+# i = 1
+# while i <= 10:
+#     if(i %2 !=0):
+#         i = i +1
+#         continue
+#     print(i)
+#     i = i  
+# 
+# str = 'LAVANYAHEMA' 
+# for char in str:
+#     if(char == "Y"):
+#         print("Y found")
+    
+#     print(char)
+# else:
+#     print("END")
+
+# nums = (1,4,9,16,25,36,49,64,81,1000,36)
+
+# x = 36 
+
+# idx = 0
+# for el in nums:
+#     if(el == x):
+#         print("number found at idx", idx)
+#         break
+
+#         idx+=1 
+
+# n = int(input("enter a number:"))
+# for i in range(1,11):
+#     print(n *1)
+# for i in range(5):
+#     pass
+# if i > 5:
+#     pass
+
+# print("some usefull work")
+
+# n = 2
+
+# sum =  0
+# for i in range ( 1,n+1):
+#     sum+=1
+#     print("total sum = ",sum)
+
+# seq = range(5)
+# for i in seq:
+#     print(i)
+# str = "apnacollage"
+# for char in str:
+#     if(char == "o"):
+#         print("o found")
+#         break
+#         print(char)
+#     else:
+#         print("END")
+
+
+# n = int(input("enter  number:"))
+# i = 1
+# while i<=5:
+#     print(i)
+#     i = i +1
+
+# n = int(input("enter a number:"))
+# i = 1
+# while i <=10:
+#     print(n*i)
+#     i = i+1
+# 
+  
+
+    
 
 
 
 
 
+# nums = (1,4,9,16,25,36,49,64,81,1000)
+# idx = 0
+# while idx <len(nums):
+#     print(nums[idx])
+#     idx = idx+1
+# for el in nums:
+#     print(el)
+# nums = (1,4,9,16,25,36,49,64,81,100)
+# idx = 0
+# x = 25
+# while idx <len(nums):
+#    if(nums[idx]==x):
+#       print("found at idx",idx)
+      
+# else:
+#    print("finding...")
+#    idx = idx + 1
+
+
+
+
+# def wish (name):
+#     print("hi hello goodmorning",name)
+
+# wish("krishna")
+# wish("jaan")
+# wish("sandy")
+
+# def add(x,y):
+#     print(x+y)
+#     # print(x*y)
+# add(10,20)
+# add(1.9,2.9)
+# add("hi","hello")
+
+# m = 25
+# p = 40
+# c = 35
+# e = 60
+# h = 55
+# tm = 500
+# def result(m,p,c,e,h):
+#     totalmarks = m+p+c+e+h
+#     print(totalmarks)
+#     print((totalmarks/tm)*100)
+# m = 68
+# p = 89
+# c = 75
+# e = 91
+# h = 50
+# tm = 500
+# # totalmarks = m+p+c+e+h
+# # print(totalmarks)
  
+# result(m,p,c,e,h)
+
+# # return
+# def add(x,y):
+#     # print(x+y)
+#     return x + y
+# # add(10,30)
+# # print(add(10,30))
+# sm = add(9,30)
+# # print(sm)
+# if sm%2 == 0:
+#     print("is even")
+# else:
+#     print("not a even")
+
+nums = [1,2,3,4,5,6,7,8,9,0]
+# i = 0
+# while i < len(nums):
+#     print(nums[i])
+#     i = i + 1
+# for val in nums:
+#     print(val)
+def factorial(z):
+    if z == 0:
+        return 1
+    else:
+        return(z*factorial(z-1))
+    
+print(factorial(5))
+
+"""
+    z = 5   z = 4 z = 3  z = 2   z = 1 z = 0
+    5*4     4*3    3*2   2*1     1*0   1
 
 
+"""
+print(5*4*3*2*1)
 
+l = lambda x : x*x
+print(l(5))
 
-
-
-
-
-
+l = lambda x,y : x+y
+print(l(10,20))
   
+l = lambda x,y: x if x>y else y
+print(l(100,20))
+
+def get_evens(l):
+    if l%2 == 0 :
+        return True
+    else:
+        return False
+l = [1,2,3,4,5,6,7,8,9]
+f = filter(get_evens,l)
+print(list(f))
+
+# reduce()
+from functools import *
+l = [1,2,3,4,5,6,7,8,9]
+rs = reduce(lambda x,y : x+y,l)
+
+def add(x,y):
+    print("x-",x)
+    print("y-",y)
+    print(x-y)
+
+add(10,20)
+
+def add(y,x):
+    print("y-",y)
+    print("x-",x)
+    print(x-y)
+
+add(10,20)
+def greet(s1,s2):
+    print(s1+s2)
+greet("HBD","krishna")
+
+def greet(s2,s1):
+    print(s1+s2)
+greet("HBD","krishna")
+
+def wish(msg,name):
+    print(name+msg)
+
+wish("ram","happy birth day")
 
 
+def add(*l):
+    total = 0
+    for i in l:
+        total = total+i
+    return total
 
+print(add(1,2,3,4,5,6,7,8,9,0))
+print(add(20.39,40,28,99,80))
 
+def marks(**l):
+    for k,v in l.items():
+        print(k,"-",v)
+    print(sum(l.values()))
 
-  
+print(marks(m=30,p=50,c=40,e=70,h=60))
+
+def data(email,firstname,lastname=None):
+    print(email)
+    print(firstname)
+    print(lastname)
+
+data("ram@gmail.com","ram")
+
+data("krishna@gmail.com","krishna","hema")
+# n = int(input("enter a number:"))
+# for i in range(1,101):
+#     print(i)
+# n = int(input("enter a number:"))
+# for i in range(1,101):
+#     if(i%3==0):
+#         print("fizz")
+#     elif(i%5==0):
+#        print("buzz")
+#     else:
+#         print(i)
+n = int(input("enter a number:"))
+for i in range(1,101):
+    if(i%3==0 and i%5==0):
+        print("fizzBuzz")
+    else:
+        print(i)
+
+string1 = "madam"
+copy_string1 = string1.copy()
+copy_string1.reverse()
+if(copy_string1==string1):
+    print("palindrome")
+else:
+    print("not a palindrome")
+
